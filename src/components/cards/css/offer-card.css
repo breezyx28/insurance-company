@@ -1,0 +1,17 @@
+#offerCard:hover {
+  background-color: #28a8df;
+  border: 1px solid #28a8df;
+}
+
+#offerCard:hover .blue-text,
+#offerCard:hover .text-gray-700 {
+  color: white !important;
+}
+
+#offerCard:hover .icon {
+  background-color: white;
+}
+
+#offerCard:hover span {
+  color: #fd7a53;
+}

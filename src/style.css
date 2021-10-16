@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'Avenir';
+  src: local('Avenir'), url(./fonts/AvenirLTStd-Roman.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Avenir-Bold';
+  src: local('Avenir'), url(./fonts/AvenirLTStd-Black.otf) format('truetype');
+}
+
+body {
+  font-family: Avenir;
+  overflow-x: hidden;
+}
+.font-bold {
+  font-family: Avenir-Bold;
+}
+.blue-text {
+  color: #1f2f5d;
+}
+.blue-bg {
+  background-color: #1f2f5d;
+}
+
+.orange-text {
+  color: #fd7a53;
+}
+.orange-bg {
+  background-color: #fd7a53;
+}
+
+.shade {
+  box-shadow: rgba(17, 12, 46, 0.08) 0px 48px 100px 0px;
+}
+
+.shade-hover {
+  box-shadow: rgba(17, 12, 46, 0.2) 0px 48px 100px 0px;
+}
+
+.line-clamp-1 {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.line-clamp-4 {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+.line-clamp-5 {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}

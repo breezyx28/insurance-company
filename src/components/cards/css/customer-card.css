@@ -1,0 +1,7 @@
+.customer-card {
+  transition: all 0.2s;
+}
+.customer-card:hover {
+  transition: all 0.2s;
+  box-shadow: rgba(17, 12, 46, 0.08) 0px 12px 40px 0px;
+}
