@@ -3,16 +3,16 @@ import { ServicesCard } from '../cards/services-cards';
 export let Buy = () => {
   return (
     <section id="buy">
-      <div className="content w-screen h-screen px-20">
+      <div className="content w-screen py-20 px-20">
         <div className="flex flex-col justify-center items-center h-full">
           <p className="text-4xl font-black mb-4">
             Buy Insurance <span style={{ color: '#fd7a53' }}>From Us</span>
           </p>
-          <p className="text-gray-700 mb-14">
+          <p className="text-gray-700 text-center mb-14">
             Insurance is provided by Delta Insurance Services with License No.
             72 of the Insurance Authority.
           </p>
-          <div className="companies-slider w-full flex justify-between items-center">
+          <div className="companies-slider w-full flex-wrap flex justify-center gap-4 lg:justify-between items-center">
             <ServicesCard
               style={'bg-blue-100 text-blue-500'}
               icon={'shield-check'}

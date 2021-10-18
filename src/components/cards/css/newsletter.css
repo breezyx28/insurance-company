@@ -1,0 +1,13 @@
+#newsletterImg {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  right: -100px;
+  bottom: -30px;
+}
+
+@media (max-width: 768px) {
+  #newsletterImg {
+    display: none;
+  }
+}

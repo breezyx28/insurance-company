@@ -5,7 +5,7 @@ import './style.css';
 export let Slider = () => {
   return (
     <section id="slider">
-      <div className="w-screen h-screen px-20 bg-gradient-to-t from-gray-50">
+      <div className="w-screen pb-20 px-20 bg-gradient-to-t from-gray-50">
         <div className="slider">
           <div className="flex flex-col gap-8 justify-between">
             <div className="flex justify-between items-center">
@@ -17,10 +17,14 @@ export let Slider = () => {
               </h1>
               <div className="slider-btn text-xl flex gap-4">
                 <div className="relative slider-button rounded-full w-12 h-12 shade flex justify-center items-center transition-all cursor-pointer">
-                  <span className="absolute fa fa-chevron-left text-sm font-bold"></span>
+                  <span
+                    style={{ fontWeight: '700' }}
+                    className="absolute fa fa-chevron-left text-sm"></span>
                 </div>
                 <div className="relative slider-button rounded-full w-12 h-12 shade flex justify-center items-center transition-all cursor-pointer">
-                  <span className="absolute fa fa-chevron-right text-sm font-bold"></span>
+                  <span
+                    style={{ fontWeight: '700' }}
+                    className="absolute fa fa-chevron-right text-sm"></span>
                 </div>
               </div>
             </div>

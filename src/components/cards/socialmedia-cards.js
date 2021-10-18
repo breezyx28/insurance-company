@@ -12,7 +12,7 @@ export let SocialMediaCard = ({ text, icon, color }) => {
             <div className="date text-gray-500">
               <date datetime="6 Jul, 2021">6 Jul, 2021</date>
             </div>
-            <div className="text blue-text">
+            <div className="text blue-text line-clamp-3 overflow-hidden">
               {text ??
                 'Send your documents online and we’ll issue your car insurance policy in 60 minutes. It will automatically be included in the RTA system.'}
             </div>

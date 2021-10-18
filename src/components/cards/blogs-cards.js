@@ -20,7 +20,7 @@ export let BlogCard = ({
           />
         </div>
         <div className="head">
-          <div className="text-2xl font-bold blue-text">
+          <div className="md:text-2xl text-lg font-bold blue-text">
             {head ?? 'What Is Insurance? And How The Insurance Works?'}
           </div>
         </div>
@@ -31,8 +31,8 @@ export let BlogCard = ({
           </div>
         </div>
         <div className="info">
-          <div className="flex justify-between items-center">
-            <div className="flex gap-3">
+          <div className="flex gap-2 justify-between items-center">
+            <div className="flex md:gap-3 gap-2">
               <img
                 src={infoImg ?? './imgs/people/girl-blue-bg.jpg'}
                 className="w-8 h-8 object-cover rounded-full"

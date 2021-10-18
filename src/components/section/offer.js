@@ -3,14 +3,14 @@ import { OffersCard } from '../cards/offers-cards';
 export let Offer = () => {
   return (
     <section id="offer">
-      <div className="content w-screen h-screen px-20">
-        <div className="flex justify-between">
+      <div className="content w-screen pb-10 px-20">
+        <div className="flex md:justify-between justify-center">
           <div className="left">
             <p className="text-4xl font-bold blue-text pb-10 w-full">
               Cheap Car Insurance in{' '}
               <span style={{ color: '#fd7a53' }}>3 Simple Steps</span>
             </p>
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col items-center lg:items-start gap-4">
               <OffersCard bg={'orange-bg'} />
               <OffersCard
                 title={'Buy It From Us'}
@@ -29,13 +29,13 @@ export let Offer = () => {
               />
             </div>
           </div>
-          <div className="right">
+          <div className="right hidden lg:flex">
             <div className="object-img h-full">
               <img
                 src="./imgs/object/guy.png"
                 width="700"
                 height="auto"
-                className="h-full"
+                className="h-full fit-contain"
               />
             </div>
           </div>

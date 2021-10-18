@@ -3,7 +3,7 @@ export let WhyUsCard = ({ icon, description }) => {
     <div className="z-10">
       <div
         className="p-5 filter rounded-lg bg-white bg-opacity-70 bg-clip-padding"
-        style={{ width: '450px', backdropFilter: 'blur(20px)' }}>
+        style={{ maxWidth: '450px', backdropFilter: 'blur(20px)' }}>
         <div className="flex items-start gap-6">
           <div
             className="icon flex items-start"

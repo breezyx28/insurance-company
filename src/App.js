@@ -25,7 +25,7 @@ import { NewsLetter } from './components/section/news-letter';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App overflow-x-hidden">
       <section className="splash" id="splash">
         <div className="absolute w-screen h-screen">
           <img
@@ -37,7 +37,7 @@ function App() {
           className="pt-5 px-20 z-20 filter bg-opacity-80 bg-clip-padding"
           style={{ backdropFilter: 'blur(20px)' }}>
           <Nav />
-          <div className="content flex justify-between gap-40 pt-10">
+          <div className="content flex justify-center md:justify-between md:gap-40 md:pt-10">
             <div className="header flex flex-col justify-around">
               <div className="">
                 <p className="text-5xl leading-tight font-bold blue-text">
@@ -77,7 +77,7 @@ function App() {
                   </ul>
                 </div>
               </div>
-              <div className="flex items-start gap-4">
+              <div className="flex md:items-start md:justify-start justify-center gap-4 mt-8">
                 <span className="fal fa-long-arrow-down"></span>
                 <a href="#partners" className="text-sm font-semibold">
                   S C R O L L

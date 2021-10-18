@@ -2,10 +2,11 @@ import './faq.css';
 export let Faq = () => {
   return (
     <section id="faq">
-      <div className="w-screen px-20 bg-gray-50" style={{ height: '60vh' }}>
+      <div className="w-screen pb-20 px-20 bg-gray-50">
         <div className="flex flex-col gap-10 pt-20">
-          <div className="hero text-4xl blue-text font-bold flex justify-center">
-            Faq About Car <span className="orange-text">Insurance</span>
+          <div className="hero text-4xl blue-text font-bold inline-block text-center">
+            Faq About Car
+            <span className="orange-text ml-2">Insurance</span>
           </div>
 
           <div className="flex justify-center">
@@ -18,7 +19,7 @@ export let Faq = () => {
                     id="chck1"
                   />
                   <header
-                    class="flex items-center text-center p-5 pl-8 pr-8 cursor-pointer select-none tab-label"
+                    class="flex items-start md:items-center text-center p-5 pl-8 pr-8 cursor-pointer select-none tab-label"
                     for="chck1">
                     <span class="blue-text font-bold text-xl text-center">
                       Do I Need To Buy Car Insurance In Uae?
@@ -69,7 +70,7 @@ export let Faq = () => {
                     id="chck1"
                   />
                   <header
-                    class="flex items-center p-5 pl-8 pr-8 cursor-pointer select-none tab-label"
+                    class="flex text-center md:items-center p-5 pl-8 pr-8 cursor-pointer select-none tab-label"
                     for="chck1">
                     <span class="blue-text font-bold text-xl">
                       Is It Safe To Buy Car Insurance Online Using My
@@ -121,7 +122,7 @@ export let Faq = () => {
                     id="chck1"
                   />
                   <header
-                    class="flex items-center p-5 pl-8 pr-8 cursor-pointer select-none tab-label"
+                    class="flex text-center md:items-center p-5 pl-8 pr-8 cursor-pointer select-none tab-label"
                     for="chck1">
                     <span class="blue-text font-bold text-xl">
                       Can I Pay For A Car Insurance Policy Today And Issue The
@@ -173,7 +174,7 @@ export let Faq = () => {
                     id="chck1"
                   />
                   <header
-                    class="flex items-center p-5 pl-8 pr-8 cursor-pointer select-none tab-label"
+                    class="flex text-center md:items-center p-5 pl-8 pr-8 cursor-pointer select-none tab-label"
                     for="chck1">
                     <span class="blue-text font-bold text-xl">
                       What Is The Difference Between Comprehensive Car Insurance

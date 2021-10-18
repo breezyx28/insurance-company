@@ -6,7 +6,7 @@ let FirstForm = () => {
   return (
     <div>
       <div
-        className="bg-white shade"
+        className="bg-white shade hidden md:flex"
         style={{
           boxShadow: 'rgba(0, 0, 0, 0.1) 0px 10px 50px',
           borderRadius: '15px',

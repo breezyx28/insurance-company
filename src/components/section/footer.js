@@ -1,15 +1,24 @@
 import { Cash } from '../../assets/icons/cash';
 import { MasterCard } from '../../assets/icons/masterCard';
 import { Visa } from '../../assets/icons/visa';
+import Logo from '../logo/logo';
 
 export let Footer = () => {
   return (
-    <div className="w-screen h-screen blue-bg text-white">
-      <div className="wrapper pt-20 px-20">
+    <div className="w-screen blue-bg text-white">
+      <div className="wrapper pt-20 pb-10 px-10 md:px-20">
         <div className="pb-20">
-          <div className="footer-wrapper grid grid-cols-4 gap-20">
+          <div className="footer-wrapper grid md:grid-cols-4 grid-rows-1 gap-10 md:gap-20">
             <div className="flex flex-col">
-              <div className="head text-3xl font-semibold">Head Office</div>
+              <div className="head text-3xl flex font-bold">
+                <Logo
+                  style={'mr-2'}
+                  width={'40'}
+                  height={'40'}
+                  white={'#fff'}
+                />{' '}
+                Head Office
+              </div>
               <ul className="list-none flex flex-col gap-6 mt-5">
                 <li className="flex flex-col gap-2">
                   <div className="sub-head font-bold text-2xl">Location</div>
@@ -92,7 +101,7 @@ export let Footer = () => {
           </div>
         </div>
 
-        <div className="copywrights pt-10">
+        <div className="copywrights copywrights py-10">
           <div className="flex justify-center items-center font-bold">
             Copyrights © 2021 Your Insurance
           </div>
