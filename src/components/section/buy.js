@@ -5,7 +5,7 @@ export let Buy = () => {
     <section id="buy">
       <div className="content w-screen py-20 px-20">
         <div className="flex flex-col justify-center items-center h-full">
-          <p className="text-4xl font-black mb-4">
+          <p className="text-4xl blue-text md:text-start text-center font-bold mb-4">
             Buy Insurance <span style={{ color: '#fd7a53' }}>From Us</span>
           </p>
           <p className="text-gray-700 text-center mb-14">

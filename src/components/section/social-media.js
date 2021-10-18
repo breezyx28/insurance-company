@@ -11,7 +11,7 @@ export let SocialMedia = () => {
               <span className="orange-text ml-2">media</span>
             </h1>
           </div>
-          <div className="h-full w-full grid grid-cols-3 grid-flow-col gap-4">
+          <div className="h-full w-full grid md:grid-cols-3 grid-cols-1 md:grid-flow-col grid-flow-row gap-4">
             <div className="flex flex-col gap-4">
               <SocialMediaCard />
               <SocialMediaCard />

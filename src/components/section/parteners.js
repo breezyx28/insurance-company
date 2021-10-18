@@ -29,7 +29,7 @@ export let Partners = () => {
     <section id="partners">
       <div className="content pt-20 px-20">
         <div className="flex flex-col justify-end items-center h-full">
-          <p className="text-4xl font-black mb-14">
+          <p className="text-4xl font-bold text-center md:text-start blue-text mb-14">
             Our <span style={{ color: '#fd7a53' }}>Trusted</span> Partners
           </p>
           <div className="w-full flex flex-col justify-center">

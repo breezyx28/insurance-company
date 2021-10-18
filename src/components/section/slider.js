@@ -9,13 +9,11 @@ export let Slider = () => {
         <div className="slider">
           <div className="flex flex-col gap-8 justify-between">
             <div className="flex justify-between items-center">
-              <h1
-                className="text-4xl font-bold blue-text"
-                style={{ width: '30%' }}>
+              <h1 className="text-4xl text-center md:text-start md:w-1/3 font-bold blue-text">
                 What Our <span className="orange-text">Customers</span> Say
                 About Us
               </h1>
-              <div className="slider-btn text-xl flex gap-4">
+              <div className="slider-btn hidden md:flex text-xl flex gap-4">
                 <div className="relative slider-button rounded-full w-12 h-12 shade flex justify-center items-center transition-all cursor-pointer">
                   <span
                     style={{ fontWeight: '700' }}
@@ -48,7 +46,7 @@ export let Slider = () => {
                   width="40"
                   height="40"
                 />
-                <span className="flex items-center text-2xl font-bold blue-text">
+                <span className="flex items-center text-center flex-col md:flex-row inline text-2xl font-bold blue-text gap-4 md:gap-1">
                   5.0 / 5.0 Rating
                   <div className="flex items-center px-2">
                     <span className="fa fa-star text-yellow-400 px-1 text-3xl"></span>

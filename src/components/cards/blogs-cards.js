@@ -8,15 +8,15 @@ export let BlogCard = ({
   infoUsername,
 }) => {
   return (
-    <div style={{ maxWidth: '500px' }}>
+    <div style={{ maxWidth: '600px' }}>
       <div className="flex flex-col gap-4">
         <div className="img">
           <img
             src={imageSrc ?? './imgs/blog/car-drive-3.jpg'}
             className="fit-cover"
             style={{ borderRadius: '15px' }}
-            width={imageWidth ?? '500px'}
-            height={imageHeight ?? '500px'}
+            width={imageWidth ?? '600px'}
+            height={imageHeight ?? '600px'}
           />
         </div>
         <div className="head">

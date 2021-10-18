@@ -6,7 +6,7 @@ export let OffersCard = ({ icon, style, title, bg, description }) => {
       <div
         id="offerCard"
         className="p-8 border border-gray-300"
-        style={{ width: '500px', borderRadius: '10px' }}>
+        style={{ maxWidth: '500px', borderRadius: '10px' }}>
         <div className="flex items-start gap-4">
           <div
             className={`icon flex justify-center items-center ${

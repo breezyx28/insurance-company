@@ -34,7 +34,7 @@ function App() {
           />
         </div>
         <div
-          className="pt-5 px-20 z-20 filter bg-opacity-80 bg-clip-padding"
+          className="pt-5 md:px-20 px-10 z-20 filter bg-opacity-80 bg-clip-padding"
           style={{ backdropFilter: 'blur(20px)' }}>
           <Nav />
           <div className="content flex justify-center md:justify-between md:gap-40 md:pt-10">

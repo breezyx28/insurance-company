@@ -5,7 +5,7 @@ export let ServicesCard = ({ style = null, icon, headline, description }) => {
         className="flex flex-col flex-grow w-full gap-8 p-10 shade"
         style={{
           borderRadius: '15px',
-          width: '310px',
+          width: '250px',
         }}>
         <div className="flex">
           <div
