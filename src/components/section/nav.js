@@ -20,22 +20,22 @@ export let Nav = () => {
         <div class="text-sm lg:flex-grow">
           <a
             href="#responsive-header"
-            class="block mt-4 lg:inline-block lg:mt-0 blue-text font-bold hover:text-white mr-4">
+            class="block mt-4 lg:inline-block lg:mt-0 blue-text font-bold hover:text-blue-900 mr-4">
             About
           </a>
           <a
             href="#responsive-header"
-            class="block mt-4 lg:inline-block lg:mt-0 blue-text font-bold hover:text-white mr-4">
+            class="block mt-4 lg:inline-block lg:mt-0 blue-text font-bold hover:text-blue-900 mr-4">
             Insurance
           </a>
           <a
             href="#responsive-header"
-            class="block mt-4 lg:inline-block lg:mt-0 blue-text font-bold hover:text-white mr-4">
+            class="block mt-4 lg:inline-block lg:mt-0 blue-text font-bold hover:text-blue-900 mr-4">
             Contact
           </a>
           <a
             href="#responsive-header"
-            class="block mt-4 lg:inline-block lg:mt-0 blue-text font-bold hover:text-white">
+            class="block mt-4 lg:inline-block lg:mt-0 blue-text font-bold hover:text-blue-900">
             EN
           </a>
         </div>

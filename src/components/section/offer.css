@@ -1,0 +1,6 @@
+@media (max-width: 721px) {
+  #left {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}

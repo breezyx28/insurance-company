@@ -5,11 +5,11 @@ import './style.css';
 export let Slider = () => {
   return (
     <section id="slider">
-      <div className="w-screen pb-20 px-20 bg-gradient-to-t from-gray-50">
+      <div className="w-screen pb-20 px-20 pt-10 bg-gradient-to-t from-gray-50">
         <div className="slider">
           <div className="flex flex-col gap-8 justify-between">
             <div className="flex justify-between items-center">
-              <h1 className="text-4xl text-center md:text-start md:w-1/3 font-bold blue-text">
+              <h1 className="text-4xl text-start md:w-1/3 font-bold blue-text">
                 What Our <span className="orange-text">Customers</span> Say
                 About Us
               </h1>
