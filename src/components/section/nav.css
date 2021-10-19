@@ -1,0 +1,14 @@
+@media (max-width: 720px) {
+  .top-nav {
+    display: none;
+    background-color: white;
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    transition: all 0.4s;
+  }
+  .top-nav.active {
+    display: block !important;
+    transition: all 0.4s;
+  }
+}
