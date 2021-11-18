@@ -42,7 +42,7 @@ function App() {
           <div className="content flex justify-center md:justify-between md:gap-40 pt-16 md:pt-10">
             <div className="header flex flex-col justify-around">
               <div className="">
-                <p className="text-5xl leading-tight font-bold blue-text">
+                <p className="text-2xl md:text-5xl leading-tight font-bold blue-text">
                   Best Insurances in UAE Compare & Buy{' '}
                   <span style={{ color: '#FD7A53' }}>Cheap Insurance</span>{' '}
                   Online
